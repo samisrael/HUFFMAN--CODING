@@ -45,7 +45,8 @@ class NodeTree(object):
     def __lt__(self, other):
         # Ensure the priority queue (heap) orders by frequency
         return self.freq < other.freq
-
+```
+```python
 # Step 3: Main function to implement Huffman coding
 def huffman_code_tree(node, left=True, binString=''):
     if node is None:
